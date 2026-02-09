@@ -1,0 +1,4 @@
+industry-research-app/
+├── pubspec.yaml
+└── lib/
+    └── main.dart（所有代码在一个文件）
