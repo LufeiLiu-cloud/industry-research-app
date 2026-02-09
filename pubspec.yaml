@@ -1,4 +1,23 @@
-industry-research-app/
-├── pubspec.yaml
-└── lib/
-    └── main.dart（所有代码在一个文件）
+name: industry_research_app
+description: 行业投资研究分析App
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
